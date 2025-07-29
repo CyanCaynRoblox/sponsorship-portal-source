@@ -280,7 +280,7 @@
     <div class="filter-column">
       <div class="divider"></div>
       <div class="filters-title">Filters</div>
-      <input class="search-box" type="text" placeholder="Search...">
+      <input id="searchBar" class="search-box" type="text" placeholder="Find channel name...">
       <div class="checkbox-filters">
         <label class="checkbox-filter"><span class="checkbox-placeholder"></span>Filter A</label>
         <label class="checkbox-filter"><span class="checkbox-placeholder"></span>Filter B</label>
@@ -327,5 +327,26 @@
     window.addEventListener('load', shrinkAllMainText);
     window.addEventListener('resize', shrinkAllMainText);
   </script>
+  <script>
+  // Search/filter logic for frames
+  document.getElementById('searchBar').addEventListener('input', function(e) {
+    const query = e.target.value.toLowerCase();
+    document.querySelectorAll('.grid .frame').forEach(frame => {
+      const mainText = frame.querySelector('.main-text').textContent.toLowerCase();
+      const subText = frame.querySelector('.sub-text').textContent.toLowerCase();
+      const tags = Array.from(frame.querySelectorAll('.tag')).map(tag => tag.textContent.toLowerCase()).join(' ');
+      // Show frame if any content matches the query
+      if (
+        mainText.includes(query) ||
+        subText.includes(query) ||
+        tags.includes(query)
+      ) {
+        frame.style.display = '';
+      } else {
+        frame.style.display = 'none';
+      }
+    });
+  });
+</script>
 </body>
 </html>
