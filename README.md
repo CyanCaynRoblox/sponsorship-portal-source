@@ -6,3 +6,6 @@ Please keep in mind that this is a work in progress and will soon be updated wit
 Contribute. The roadmap is going to be laid out soon, and you can start creating pages or just fix my terrible code.
 Notify the owner of this repository if you want to contribute.
 We are going to use internal CSS and HTML, although inline may be usable too.
+
+# Credits
+Most pages from this site will be inspired by LabelRadar's site structure. [Visit LabelRadar](labelradar.com)
