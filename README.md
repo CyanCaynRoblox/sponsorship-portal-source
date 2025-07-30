@@ -8,4 +8,4 @@ Notify the owner of this repository if you want to contribute.
 We are going to use internal CSS and HTML, although inline may be usable too.
 
 # Credits
-Most pages from this site will be inspired by LabelRadar's site structure. [Visit LabelRadar](labelradar.com)
+Most pages from this site will be inspired by LabelRadar's site structure. (labelradar.com)
