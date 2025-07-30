@@ -337,9 +337,7 @@
       const tags = Array.from(frame.querySelectorAll('.tag')).map(tag => tag.textContent.toLowerCase()).join(' ');
       // Show frame if any content matches the query
       if (
-        mainText.includes(query) ||
-        subText.includes(query) ||
-        tags.includes(query)
+        mainText.includes(query)
       ) {
         frame.style.display = '';
       } else {
