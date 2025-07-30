@@ -280,7 +280,7 @@
     <div class="filter-column">
       <div class="divider"></div>
       <div class="filters-title">Filters</div>
-      <input id="searchBar" class="search-box" type="text" placeholder="Find channel name...">
+      <input id="searchBar" class="search-box" type="text" placeholder="Find channel name... (not case sensitive)">
       <div class="checkbox-filters">
         <label class="checkbox-filter"><span class="checkbox-placeholder"></span>Filter A</label>
         <label class="checkbox-filter"><span class="checkbox-placeholder"></span>Filter B</label>
@@ -291,7 +291,7 @@
     </div>
   </div>
   <script>
-    // Shrink main text only if it really overflows (allow up to 6 non-space chars overflow)
+    // Shrink main text only if it overflows (allow up to 6 non-space chars overflow)
     function autoShrinkMainText(selector, minFontSize = 8, maxFontSize = 32) {
       document.querySelectorAll(selector).forEach(el => {
         el.style.fontSize = maxFontSize + 'px'; // Reset font size
