@@ -4,4 +4,4 @@ The backend folder will probably contain other things too like the YouTube api, 
 
 ### so yeah that's pretty much it i'll add more to this when needed
 
-**RUSTTEST.RS IS NOT AN ACTUAL SCRIPT**
+**rustTEST.rs IS NOT AN ACTUAL SCRIPT **
