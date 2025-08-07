@@ -1,4 +1,4 @@
-// man i'm honestly so demotivated to work on the backend because of how annoying it usually is so this isnt the actual script
+// man i'm honestly so demotivated to work on the backend because of how annoying it usually is so this isnt the actual script AND THIS FILE WILL BE DELETED SOON.
 fn main() {
   let mut version = "v0.1";
   let mut versionPublished: bool = true;
