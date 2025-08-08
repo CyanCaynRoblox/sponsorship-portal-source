@@ -1,91 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Sponsorship Portal - Pricing</title>
-<style>
-.plan {
-  border: 2px solid #000;         /* Black border by default */
-  transition: border-color 0.3s;  /* Smooth color transition */
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.07);
-  padding: 30px 20px;
-  width: 250px;
-  text-align: center;
-  border-radius: 8px;
-}
+  <meta charset="UTF-8">
+  <title>Pricing Plans</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
 
-.plan:hover {
-  border-color: #4287f5;          /* Blue border on hover */
-}
+    .pricing-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      gap: 30px;
+      margin: 60px 0;
+    }
 
-#pro {
-  padding-bottom: 80px;           /* Pro plan is 50px taller */
-}
+    .plan {
+      background: #fff;
+      border: 2px solid #000;         /* Black border by default */
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+      width: 260px;
+      padding: 35px 24px 30px 24px;
+      text-align: center;
+      transition: border-color 0.3s, box-shadow 0.3s;
+      position: relative;
+    }
 
-body {
-  font-family: Arial, sans-serif;
-  background: #f5f5f5;
-  margin: 0;
-  padding: 0;
-}
+    .plan:hover {
+      border-color: #4287f5;          /* Blue border on hover */
+      box-shadow: 0 6px 24px rgba(66,135,245,0.15);
+    }
 
-/* ...rest of your styles unchanged... */
-</style>
+    .plan-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 12px;
+      color: #222;
+    }
+
+    .plan-price {
+      font-size: 2.3rem;
+      color: #4287f5;
+      font-weight: bold;
+      margin-bottom: 18px;
+    }
+
+    .plan-features {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px 0;
+      text-align: left;
+    }
+
+    .plan-features li {
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+      font-size: 1rem;
+      color: #444;
+    }
+
+    .plan-features li:last-child {
+      border-bottom: none;
+    }
+
+    .plan-action {
+      display: inline-block;
+      padding: 10px 28px;
+      background: #4287f5;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.2s;
+      margin-top: 18px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .plan-action:hover {
+      background: #2666d1;
+    }
+
+    #pro {
+      padding-bottom: 80px; /* Makes Pro plan 50px taller */
+    }
+  </style>
 </head>
 <body>
-    <div class="pricing-switch">
-        <span>Monthly</span>
-        <label class="switch">
-            <input type="checkbox" id="billingToggle">
-            <span class="slider"></span>
-        </label>
-        <span>Yearly</span>
-    </div>
-    <div class="pricing-columns">
-        <div class="plan" id="basic">
-            <h2>Basic</h2>
-            <p class="price" data-monthly="$0.99/mo" data-yearly="$10/yr">$10/mo</p>
-            <ul>
-                <li>All basic features</li>
-                
-            </ul>
-            <button>Select</button>
-        </div>
-        <div class="plan" id="pro">
-            <h2>Pro</h2>
-            <p class="price" data-monthly="$4/mo" data-yearly="35/yr">$25/mo</p>
-            <ul>
-                <li>Extended bio length</li>
-                <li>Communication and Messages</li>
-                <li>Now allows creators to ask for sponsorships other than only companies requesting them</li>
-            </ul>
-            <button>Select</button>
-        </div>
-        <div class="plan" id="premium">
-            <h2>Premium</h2>
-            <p class="price" data-monthly="$16/mo" data-yearly="120/yr">$50/mo</p>
-            <ul>
-                <li>Shiny name and badge</li>
-                <li>Sponsor Network Filters</li>
-                <li>Sponsor Watchlist</li>
-                
-            </ul>
-            <button>Select</button>
-        </div>
-    </div>
-    <script>
-        // JS for switch
-        document.getElementById('billingToggle').addEventListener('change', function() {
-            document.querySelectorAll('.price').forEach(function(priceEl) {
-                if (this.checked) {
-                    priceEl.textContent = priceEl.getAttribute('data-yearly');
-                } else {
-                    priceEl.textContent = priceEl.getAttribute('data-monthly');
-                }
-            }, this);
-        });
-    </script>
-</body>
-</html>
+  <h1 style="text-align:center*
+
