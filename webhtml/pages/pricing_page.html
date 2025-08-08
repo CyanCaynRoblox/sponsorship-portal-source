@@ -5,7 +5,16 @@
     <title>Pricing Page</title>
     <link rel="stylesheet" href="pricing_page.css">
   <style>
-   body {
+   .pricing-box {
+  border: 2px solid #000;         /* Black border by default */
+  transition: border-color 0.3s;  /* Smooth color transition */
+}
+
+.pricing-box:hover {
+  border-color: #4287f5;          /* Blue border on hover */
+}
+      
+      body {
     font-family: Arial, sans-serif;
     background: #f5f5f5;
     margin: 0;
