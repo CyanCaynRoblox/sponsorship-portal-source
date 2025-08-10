@@ -7,9 +7,9 @@ Please keep in mind that this is a work in progress and will soon be updated wit
 # What you can do to help:
 Contribute. The roadmap is going to be laid out soon, and you can start creating pages or just fix my terrible code.
 Notify the owner of this repository if you want to contribute.
-We are going to use internal CSS and HTML, although inline may be usable too.
+We are going to use internal CSS and HTML to reduce file count, although inline may be usable too. (**Please** read the contributing guidelines)
 
 ---
 
 # Credits
-Most pages from this site will be inspired by LabelRadar's site structure. [LabelRadar](https://www.labelradar.com)
+Most pages from this site will be inspired by LabelRadar's site structure. [Visit LabelRadar](https://www.labelradar.com)
