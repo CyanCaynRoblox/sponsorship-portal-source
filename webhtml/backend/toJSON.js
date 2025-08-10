@@ -8,15 +8,6 @@
  * @returns {object|array|null} The JavaScript value or object described by the JSON string.
  * @throws {SyntaxError} If the string to parse is not valid JSON.
  */
-function decodeJson(jsonString) {
-  try {
-    const data = JSON.parse(jsonString);
-    return data;
-  } catch (error) {
-    console.error("Error parsing JSON:", error);
-    return null;
-  }
-}
 
 /* Example Usage:
 const jsonString1 = '{"name": "Alice", "age": 30, "city": "New York"}';
