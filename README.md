@@ -13,3 +13,11 @@ We are going to use internal CSS and HTML to reduce file count, although inline 
 
 # Credits
 Most pages from this site will be inspired by LabelRadar's site structure. [Visit LabelRadar](https://www.labelradar.com)
+
+
+
+
+
+
+
+my god my dum ahh somehow hid the file tree on the left without knowing how to reopen it wtf
