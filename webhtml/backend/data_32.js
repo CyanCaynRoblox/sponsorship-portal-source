@@ -1,4 +1,5 @@
-// Data32, data encoding and decoding for base32 in JavaScript.
+// Data32, data encoding and decoding for base32 in JavaScript specifically made for this project.
+
 
 function base32Encode(input) {
   const base32Chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567';
@@ -11,13 +12,10 @@ function base32Encode(input) {
   }
 
   // Pad the binary string with zeros to ensure its length is a multiple of 5
-  // This is crucial for grouping bits into 5-bit chunks
   while (binaryString.length % 5 !== 0) {
     binaryString += '0';
   }
 
-  // Iterate through the binary string, taking 5 bits at a time
-  // Convert each 5-bit chunk to its decimal equivalent and map it to the Base32 character
   for (let i = 0; i < binaryString.length; i += 5) {
     const fiveBitChunk = binaryString.substring(i, i + 5);
     const charIndex = parseInt(fiveBitChunk, 2);
@@ -25,7 +23,6 @@ function base32Encode(input) {
   }
 
   // Add padding characters ('=') to the end of the Base32 string
-  // This ensures the encoded string length is a multiple of 8
   const paddingNeeded = (8 - (base32String.length % 8)) % 8;
   for (let i = 0; i < paddingNeeded; i++) {
     base32String += '=';
