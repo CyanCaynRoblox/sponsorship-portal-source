@@ -1,3 +1,5 @@
+// Data32, data encoding and decoding for base32 in JavaScript.
+
 function base32Encode(input) {
   const base32Chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567';
   let binaryString = '';
