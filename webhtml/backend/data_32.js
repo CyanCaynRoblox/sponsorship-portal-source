@@ -1,4 +1,4 @@
-// Data32, data encoding and decoding for base32 in JavaScript specifically made for this project.
+// Visit the Data32 repository which hosts multiple files each with one purpose: encode and decode to Base32. As of making this, it comes in 5 different programming languages (PHP, Python, JavaScript, C++, and C#.) Check it out, it's very useful.
 
 
 function base32Encode(input) {
