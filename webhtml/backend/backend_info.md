@@ -4,7 +4,7 @@ The backend folder will probably contain other things too like the YouTube api, 
 
 # Information about Certain Scripts
 ## data_32.js
-The code in data_32.js is from another repository I made called Data32 which is open-source and hosts code for Base32 encoding and decoding in **multiple languages!** Go check it out, *although* it only has 5 languages in the pre-release.(PHP, Python, C++, JavaScript, and C#.)
+The code in data_32.js is from another repository I made called Data32 which is open-source and has code snippets for Base32 encoding and decoding in **multiple languages!** Go check it out, *although* it only has 5 languages in the pre-release.(PHP, Python, C++, JavaScript, and C#.)
 
 ### so yeah that's pretty much it i'll edit this when needed or when I add certain files
 
