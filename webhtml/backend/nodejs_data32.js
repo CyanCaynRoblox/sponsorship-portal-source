@@ -75,19 +75,3 @@ function base32Decode(input) {
   return DECODEoutput;
 }
 
-// Export the functions for use in other files
-module.exports = {
-  base32Encode,
-  base32Decode
-};
-
-/* Example usage to run directly with Node.js
-if (require.main === module) {
-  const dataToEncode = "Hello, Base32!";
-  const encodedData = base32Encode(dataToEncode);
-  console.log(`Original: "${dataToEncode}"`);
-  console.log(`Encoded: "${encodedData}"`);
-
-  const decodedData = base32Decode(encodedData);
-  console.log(`Decoded: "${decodedData}"`);
-} */
