@@ -10,7 +10,7 @@ The code in data_32.js is from another repository I made called Data32 which is 
 This file is just configured_data_32.js but changed a bit for Node.js because I was paranoid for some reason.
 
 ## otherAccountStuff.php
-Placeholder and yeah all that stuff (I also realized it needs to be MySQL and not just basic SQL)
+Placeholder and yeah all that stuff
 
 ### so yeah that's pretty much it i'll edit this when needed or when I add certain files
 
